@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.automation.tests.UserMenuDropdown">
+        <methods>
+          <include name="mySetting7"/>
+          <include name="selectUserMenu5"/>
+          <include name="editProfile6"/>
+          <include name="setUpForBeforeTest"/>
+          <include name="loginToSalesforce2"/>
+          <include name="DeveloperConsole8"/>
+          <include name="createAccount10"/>
+          <include name="setUpBeforeTestMethod"/>
+          <include name="TearDownAfterTestMethod"/>
+          <include name="logout9"/>
+        </methods>
+      </class> <!-- com.automation.tests.UserMenuDropdown -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

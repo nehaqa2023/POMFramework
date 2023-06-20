@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.automation.utilities.TestEventListenersUtility" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.automation.tests.SalesforceLogin" /> 
+			<!--<class name="com.automation.tests.UserMenuDropdown"/>
+			<methods>
+				<include name="createAccount10" />
+			</methods>-->
+			
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--	
+Suite -->
